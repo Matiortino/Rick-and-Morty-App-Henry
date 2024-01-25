@@ -1,0 +1,54 @@
+.titular{
+    font-family: "Lucida Console", Monaco, monospace;
+    color: rgb(1, 90, 16);
+    border: 2px solid rgb(14, 148, 2);
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(4, 155, 12, 0.7); ; 
+    background-color: #eceeec;
+
+
+}
+
+.barra1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 1px;
+    font-size: 20px;
+}
+
+
+.barra1 button{
+    color: rgb(1, 90, 16);
+    border: 2px solid rgb(14, 148, 2);
+    border-radius: 2px;
+    padding: 5px 5px;
+    display: inline-block;
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 10px #eceeec;
+    transition: ease-out 0.4s;
+}
+
+.barra1 button:hover {
+    box-shadow: inset 0 100px 0 0 rgb(14, 148, 2);
+}
+
+
+.barra1 input{
+    font-family: "Lucida Console", Monaco, monospace;
+    color: rgb(1, 90, 16);
+    border: 2px solid rgb(14, 148, 2);
+    border-radius: 2px;
+    padding: 5px 5px;
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: inset 0 0 10px #eceeec;
+    transition: ease-out 0.4s;
+}
