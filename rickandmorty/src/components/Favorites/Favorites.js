@@ -6,7 +6,7 @@ const Favorites = ({ favorites }) => {
     return (
         <div style={{ display: 'flex', flexDirection: 'row', gap: '16px' }}>
           {favorites.map(
-            ({ id, name, status, gender, species, origin, image, }) => {
+            ({ id, name, status, gender, species, origin, image, onClose}) => {
               return (
                 <div key={id}>
                   <Card
@@ -17,6 +17,7 @@ const Favorites = ({ favorites }) => {
                     gender={gender}
                     origin={origin }
                     image={image}
+                    onClose={()=>onClose}
                   />
                 </div>
               );

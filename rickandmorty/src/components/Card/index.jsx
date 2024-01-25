@@ -12,8 +12,8 @@ const Card =  (props) => {
          species, 
          origin, 
          image, 
+         addFav,
          onClose, 
-         addFav, 
          removeFav,
          favorites} = props;
    const [isFav, setIsFav] = useState(false);
