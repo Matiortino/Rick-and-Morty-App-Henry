@@ -1,7 +1,7 @@
 const users = require("./users");
 
 function registerUser(email, password) {
-    users.push({ email, password });
+    usegitrs.push({ email, password });
 }
 
 function authenticateUser(email, password) {

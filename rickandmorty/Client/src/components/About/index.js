@@ -22,7 +22,7 @@ const textStyle = {
         Podras buscar el personaje que desees con su numero de ID correspondiente. Recuerda que puedes utilizar desde el 0 al 826.
       </p>
       <p style={{fontFamily: "'Lucida Console', Monaco, monospace",fontSize: "30px", color: "rgb(14, 148, 2)"}}>
-        ¡Que lo disfrutes!
+        ¡¡Que lo disfrutes!!
       </p>
 
     </>

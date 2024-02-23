@@ -77,3 +77,5 @@ const mapStateToProps = (state) =>{
 };
  
 export default connect(mapStateToProps,{filterCards, orderCards, removeFav})(Favorites);
+
+//
