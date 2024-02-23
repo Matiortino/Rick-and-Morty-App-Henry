@@ -17,12 +17,12 @@ const  SearchBar = (props) => {
 
    return (
       <div className= {styles.barra1}>
-         <h1 className={styles.titular}>¡Busca tu personaje!</h1>
+         <h1 className={styles.titular}>Introduce el ID:</h1>
          <input
             onChange={hamdleChange}
             value={id}
             type='search' 
-            placeholder="id..."
+            placeholder="ID..."
          />
          <button onClick={() => handleClick()}>Agregar</button>
       </div>
