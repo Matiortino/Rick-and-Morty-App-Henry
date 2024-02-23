@@ -70,11 +70,12 @@ function App() {
   }
 
   const logout = () => {
-    alert('adios');
+    alert("¡Hasta pronto!");
     access.isLoged = false;
-    navigate('/');
-  }
+    navigate("/");
+  };
 
+  
   return (
     <div className='App'>
       {pathname !== '/' && <Nav onSearch={onSearch} logout={logout} />}

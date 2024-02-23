@@ -21,6 +21,7 @@ const Favorites = (props) => {
     
   return (
     <>
+    
           <select onChange={handleOrder}>
             <option value="a">Ascendente</option>
             <option value="d">Descendente</option>
@@ -33,8 +34,10 @@ const Favorites = (props) => {
           <option value="Genderless">Genderless</option>
           <option value="unknown">unknown</option>
           </select>
+          
 
           <div style={{
+            
           width: "100%",
           display: "flex",
           flexWrap: "wrap",
@@ -44,6 +47,7 @@ const Favorites = (props) => {
           {favorites.map(
             ({ id, name, status, gender, species, origin, image, onClose}) => {
               return (
+                
                 <div key={id}>
                   <Card
                     id={id}
@@ -55,6 +59,7 @@ const Favorites = (props) => {
                     image={image}
                     onClose={()=>onClose}
                   />
+                  
                 </div>
               );
             }

@@ -6,7 +6,7 @@
     
     }
 .home {
-    font-family: "Lucida Console", Monaco, monospace;
+    font-family: "Lucida Console";
     color: rgb(7, 219, 42);
     border: 2px solid rgb(14, 148, 2);
     border-radius: 2px;
@@ -20,4 +20,17 @@
     transition: ease-out 0.4s;
 }
 
-
+.logout {
+    font-family: "Lucida Console", Monaco, monospace;
+    color: rgb(233, 5, 5);
+    border: 2px solid rgb(148, 7, 2);
+    border-radius: 2px;
+    padding: 5px 5px;
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #eceeec;
+    transition: ease-out 0.4s;
+}

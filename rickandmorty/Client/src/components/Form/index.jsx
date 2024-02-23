@@ -35,24 +35,24 @@ const Form = ({loginUser}) => {
       <img src={imagenDos} className={styles.imagenDos} alt="" />
         <form 
         onSubmit={handleSubmit} className={styles.submit}>
-        <h1 className={styles.title}>Email:</h1>
+        <h1 className={styles.title}>Email</h1>
         <input
           className={styles.input1}
           type='text'
           name='email'
-          placeholder='Email'
+          placeholder='Tu email'
           value={userData.email}
           onChange={handleOnchange}
         />
 
         {errors.email && <p className={styles.error}>{errors.email}</p>}
 
-        <h1 className={styles.title}>Password:</h1>
+        <h1 className={styles.title}>Password</h1>
         <input
           className={styles.input1}
           type='password'
           name='password'
-          placeholder='password'
+          placeholder='Tu password'
           value={userData.password}
           onChange={handleOnchange}
         />
