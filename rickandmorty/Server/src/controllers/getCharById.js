@@ -16,7 +16,7 @@ async function getCharById(req, res) {
       id, name, gender, species, origin, image,status
     } = response.data;
     
-    const obj = {id: id, name: name, gender: gender, species: species, origin: origin, image: image, status: status
+    const obj = {id: id, name: name, gender: gender, species: species, origin: origin.name, image: image, status: status
     }
     res.status(200).json(obj);
     }else res.status(404).json({massage: "Not found"});
